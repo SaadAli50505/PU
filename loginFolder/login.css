@@ -1,0 +1,109 @@
+/* THEME COLOR -------rgb(53, 186, 141)------------*/
+/*-------------------------------------------------*/
+/*Default Setting*/
+/*-------------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*-------------------------------------------------*/
+/*Background Image*/
+/*-------------------------------------------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./pu-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.flexbox-container {
+  display: flex;
+}
+/*-------------------------------------------------*/
+/*left Side Welcome Div*/
+/*-------------------------------------------------*/
+#welcome-div {
+  width: 50%;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(49, 155, 120, 0.776);
+}
+#welcome-div h1 {
+  color: aliceblue;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*-------------------------------------------------*/
+/*Right Side Login Form*/
+/*-------------------------------------------------*/
+#login-div {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  width: 300px;
+  height: 350px;
+  margin: 122px auto;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  box-shadow: 1px 5px 10px 8px #888888;
+}
+#login-div input {
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  margin: auto;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+#forgot {
+  margin-left: 58%;
+  margin-top: 5px;
+}
+#btn {
+  color: aliceblue;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(53, 186, 141);
+  border: 1px solid rgb(53, 186, 141);
+}
+#btn:hover {
+  color: rgb(220, 224, 228);
+  background-color: rgb(49, 155, 120);
+}
+
+#heading {
+  color: rgb(53, 186, 141);
+  text-align: center;
+  margin-bottom: 20px;
+}
+#or {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#img-1 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.center {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#new-user {
+  margin-left: 27%;
+  margin-top: 20px;
+}

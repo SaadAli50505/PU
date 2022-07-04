@@ -1,0 +1,132 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+/*Using flexbox for div alignment*/
+.flexbox-container {
+  display: flex;
+}
+.flexbox-item {
+  height: 100px;
+
+  margin-top: 10px;
+}
+.flexbox-item-1 {
+  width: 80%;
+}
+.flexbox-item-2 {
+  width: 20%;
+}
+/*Roll NO Section CSS*/
+#rollno {
+  border: black dotted;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  top: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#roll {
+  margin-top: 18px;
+  font-weight: 700;
+}
+.time-item {
+  width: 50%;
+  font-weight: 700;
+  margin-top: 10px;
+}
+/*LOGO CSS*/
+#left-div {
+  width: 20%;
+}
+#left-div img {
+  width: 35px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/*Main Heading CSS*/
+#right-div {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+}
+#uni {
+  padding-left: 25px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#bs {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#paper {
+  width: 40%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+#course {
+  width: 60%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+/*Horizontal Lines CSS*/
+#line-1 {
+  width: 100%;
+  background-color: black;
+  height: 1.5px;
+  margin-bottom: 1px;
+}
+#line-2 {
+  width: 100%;
+  background-color: black;
+  height: 3px;
+}
+#line-3 {
+  width: 100%;
+  background-color: black;
+  height: 1.5px;
+  margin-top: 1px;
+}
+/*Questions CSS*/
+pre {
+  font-size: 15px;
+  font-weight: 600;
+}
+#q-h {
+  font-size: 20px;
+}
+/*Code BOX CSS*/
+#code-box {
+  width: 100%;
+  height: 270px;
+  border: black solid 2px;
+  padding-left: 10px;
+}
+table {
+  border: black solid 1px;
+  width: 100%;
+}
+td {
+  border: black solid 1px;
+}
+/*Next and previous Button CSS*/
+#back-next-button {
+  border: none;
+}
+#back-next-button tr th {
+  font-size: 20px;
+  border: none;
+}
+#back-next-button tr th a {
+  text-decoration: none;
+  color: black;
+  border: solid black;
+  border-radius: 20px;
+  padding: 5px;
+}

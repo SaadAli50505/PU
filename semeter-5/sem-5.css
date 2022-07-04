@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(252, 211, 153);
+}
+/* nav bar css*/
+.flexbox-container {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+/* LOGO CSS */
+#logo {
+  width: 30px;
+  margin-left: 50px;
+  margin-top: -12px;
+}
+.item {
+  height: 40px;
+  background-color: rgb(252, 211, 153);
+  padding-top: 20px;
+}
+.item-1 {
+  width: 7%;
+}
+.item-2 {
+  width: 63%;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.item-2 a:hover {
+  color: black;
+  font-size: 21px;
+  border-bottom: black solid 2px;
+}
+
+.item-3 {
+  width: 10%;
+}
+.item-3 a:hover {
+  border-bottom: black solid 2px;
+  font-size: 110%;
+}
+.item-4 {
+  width: 10%;
+}
+.item-4 a:hover {
+  border-bottom: black solid 2px;
+  font-size: 110%;
+}
+.item-5 {
+  width: 10%;
+}
+.item-5 a:hover {
+  border-bottom: black solid 2px;
+  font-size: 110%;
+}
+.item-6 {
+  width: 5%;
+}
+.item-6 :hover {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: black solid 10px;
+  border-radius: 10px;
+}
+.item-7 {
+  width: 10%;
+}
+.item-7 :hover {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: black solid 10px;
+  border-radius: 10px;
+}
+li a {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
+}
+/* HEADING CSS*/
+#heading {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+/* Course Detail Table CSS*/
+table {
+  color: black;
+  border: 2px solid;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+
+  margin: auto;
+  margin-top: 50px;
+}
+table td {
+  border-top: black solid 1px;
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  text-align: center;
+}
+#heading-2 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+#footer {
+  height: 50px;
+}

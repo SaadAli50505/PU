@@ -1,0 +1,154 @@
+/* THEME COLOR -------rgb(53, 186, 141)------------*/
+/* Default Setting */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* I use FLEX BOX CSS properties for Div Alignment */
+.flexbox-container {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.item a {
+  color: white;
+}
+/* LOGO CSS */
+#logo {
+  width: 30px;
+  margin-left: 50px;
+  margin-top: -12px;
+}
+/* NAV bar CSS */
+.item {
+  height: 40px;
+  background-color: rgb(53, 186, 141);
+  padding-top: 20px;
+}
+.item-1 {
+  width: 7%;
+}
+.item-2 {
+  color: white;
+  width: 63%;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-left: 10px;
+}
+.item-2 a:hover {
+  color: aliceblue;
+  font-size: 18.5px;
+  border-bottom: aliceblue solid 2px;
+}
+
+.item-3 {
+  width: 10%;
+}
+.item-3 a:hover {
+  border-bottom: aliceblue solid 2px;
+  font-size: 105%;
+}
+.item-4 {
+  width: 10%;
+}
+.item-4 a:hover {
+  border-bottom: aliceblue solid 2px;
+  font-size: 105%;
+}
+.item-5 {
+  width: 10%;
+}
+.item-5 a:hover {
+  border-bottom: aliceblue solid 2px;
+  font-size: 105%;
+}
+.item-6 {
+  width: 5%;
+}
+.item-6 :hover {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: black solid 10px;
+  border-radius: 10px;
+}
+.item-7 {
+  width: 10%;
+}
+.item-7 :hover {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: black solid 10px;
+  border-radius: 10px;
+}
+li a {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
+}
+/* ----------------------------------------------- */
+#main-head {
+  height: 500px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-head h1 {
+  color: rgb(53, 186, 141);
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+#welcome-div {
+  width: 50%;
+  height: 500px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  padding-top: 100px;
+}
+#welcome-div-div {
+  background-color: rgb(53, 186, 141);
+  margin-left: 10%;
+  height: 80%;
+  border-radius: 20px;
+}
+#welcome-div h1 {
+  color: white;
+  font-size: 43px;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+#welcome-div p {
+  color: white;
+  font-size: 27px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+#welcome-div button {
+  color: rgb(53, 186, 141);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: white;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+#free {
+  width: 50%;
+}
+#free img {
+  height: 500px;
+  padding-left: 250px;
+  margin-top: 70px;
+}
