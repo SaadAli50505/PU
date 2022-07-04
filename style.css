@@ -143,6 +143,9 @@ li a {
   margin-left: 40%;
   margin-top: 30px;
 }
+#welcome-div button:hover {
+  background-color: rgb(235, 235, 235);
+}
 
 #free {
   width: 50%;
